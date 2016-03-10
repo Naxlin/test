@@ -1,0 +1,10 @@
+{
+  "name": "NaxlinTest",
+  "version": "0.0.0",
+  "description": "NaxlinTest",
+  "main": "server.js",
+  "author": {
+    "name": "Naxlin",
+    "email": ""
+  }
+}
