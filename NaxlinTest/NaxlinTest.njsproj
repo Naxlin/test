@@ -31,9 +31,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="JavaScript.js" />
+    <Compile Include="lyn5-main.js" />
+    <Compile Include="lyn4.js" />
     <Compile Include="lyn1.js" />
     <Compile Include="lyn2.js" />
     <Compile Include="lyn3.js" />
+    <Compile Include="lyn5-mod.js" />
     <Compile Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
