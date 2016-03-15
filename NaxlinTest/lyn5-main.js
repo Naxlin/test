@@ -1,5 +1,4 @@
-﻿var fs = require('fs');
-var lyn5 = require('./lyn5-mod.js')
+﻿var lyn5 = require('./lyn5-mod.js')
 var dir = process.argv[2];
 var ext = process.argv[3];
 
