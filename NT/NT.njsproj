@@ -31,16 +31,30 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="JavaScript.js" />
-    <Compile Include="lyn5-main.js" />
-    <Compile Include="lyn4.js" />
-    <Compile Include="lyn1.js" />
-    <Compile Include="lyn2.js" />
-    <Compile Include="lyn3.js" />
-    <Compile Include="lyn5-mod.js" />
+    <Compile Include="Gruntfile.js" />
+    <Compile Include="Scope-Chains-Closures\JavaScript.js" />
+    <Compile Include="lyn\lyn5-main.js" />
+    <Compile Include="lyn\lyn4.js" />
+    <Compile Include="lyn\lyn1.js" />
+    <Compile Include="lyn\lyn2.js" />
+    <Compile Include="lyn\lyn3.js" />
+    <Compile Include="lyn\lyn5-mod.js" />
     <Compile Include="server.js" />
+    <Compile Include="src\js\magic.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="src\css\style.css" />
+    <Content Include="src\css\pretty.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dist\css\" />
+    <Folder Include="dist\js\" />
+    <Folder Include="lyn\" />
+    <Folder Include="dist\" />
+    <Folder Include="src\" />
+    <Folder Include="Scope-Chains-Closures\" />
+    <Folder Include="src\css\" />
+    <Folder Include="src\js\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
