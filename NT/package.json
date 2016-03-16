@@ -1,14 +1,19 @@
 {
-  "name": "NaxlinTest",
-  "version": "0.0.0",
+  "name": "grunt-getting-started",
+  "version": "0.1.0",
   "description": "NaxlinTest",
   "main": "server.js",
   "author": {
     "name": "Naxlin",
     "email": ""
   },
-  "dependencies": {
+  "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-contrib-jasmine": "^1.0.0"
+    "grunt-contrib-cssmin": "1.0.1",
+    "grunt-contrib-jshint": "1.0.0",
+    "grunt-contrib-less": "1.2.0",
+    "grunt-contrib-uglify": "1.0.1",
+    "grunt-contrib-watch": "1.0.0",
+    "jshint-stylish": "2.1.0"
   }
 }
