@@ -51,6 +51,7 @@
     <Folder Include="dist\js\" />
     <Folder Include="lyn\" />
     <Folder Include="dist\" />
+    <Folder Include="build\" />
     <Folder Include="src\" />
     <Folder Include="Scope-Chains-Closures\" />
     <Folder Include="src\css\" />

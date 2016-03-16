@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NaxlinTest", "NaxlinTest\NaxlinTest.njsproj", "{4ABF60C8-DF8A-468E-98C6-916930933538}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "NT", "NT\NT.njsproj", "{4ABF60C8-DF8A-468E-98C6-916930933538}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

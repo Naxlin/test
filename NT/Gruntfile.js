@@ -20,6 +20,16 @@ module.exports = function (grunt) {
             },
             // when this task is run, lint the Gruntfile and all js files in src
             build: ['Gruntfile.js','src/**/*.js']
+        },
+
+        uglify: {
+            options: {
+                banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
+            },
+            build: {
+                src: 'src/js/<%= pkg.name %>.js',
+                dest: 'build/<%= pkg.name %>.min.js'
+            }
         }
     });
     
@@ -33,4 +43,7 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
     grunt.loadNpmTasks('grunt-contrib-watch');
+
+    grunt.registerTask('default', ['jshint']);
+    grunt.registerTask('default', ['uglify']);
 };
