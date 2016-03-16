@@ -16,10 +16,11 @@ module.exports = function (grunt) {
         jshint: {
             options: {
                 // use jshint-stylish to make our errors look and read good
-                reporter: require('jshint-stylish') 
+                reporter: require('jshint-stylish'),
+                unused: true
             },
             // when this task is run, lint the Gruntfile and all js files in src
-            build: ['Gruntfile.js','src/**/*.js']
+            build: ['Gruntfile.js', 'src/**/*.js']
         },
 
         uglify: {
@@ -27,8 +28,8 @@ module.exports = function (grunt) {
                 banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
             },
             build: {
-                src: 'src/js/<%= pkg.name %>.js',
-                dest: 'build/<%= pkg.name %>.min.js'
+                src: 'src/js/magic.js',
+                dest: 'build/magic.min.js'
             }
         }
     });
