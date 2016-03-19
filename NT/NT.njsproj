@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Gruntfile.js" />
+    <Compile Include="lyn\lyn-async.js" />
     <Compile Include="lyn\lyn-httpCl.js" />
     <Compile Include="lyn\lyn-httpCo.js" />
     <Compile Include="Scope-Chains-Closures\JavaScript.js" />
