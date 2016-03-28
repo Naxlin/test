@@ -3,7 +3,7 @@ var port = process.argv[2];
 var data = new Date().getFullYear().toString() + '-0';
 data += new Date().getMonth() + 1;
 data += '-' + new Date().getDate() + ' ';
-data += new Date().getHours() + ':0';
+data += new Date().getHours() + ':';
 data += new Date().getMinutes() + '\n';
 
 var server = net.createServer(function (socket) {

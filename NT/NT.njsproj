@@ -32,6 +32,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Gruntfile.js" />
+    <Compile Include="lyn\lyn-httpUp.js" />
+    <Compile Include="lyn\lyn-timeFlSr.js" />
+    <Compile Include="lyn\lyn0.js" />
     <Compile Include="lyn\lyn-timeSr.js" />
     <Compile Include="lyn\lyn-async.js" />
     <Compile Include="lyn\lyn-httpCl.js" />

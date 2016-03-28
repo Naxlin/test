@@ -16,5 +16,7 @@
     "grunt-contrib-watch": "1.0.0",
     "jshint-stylish": "2.1.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "learnyounode": "^3.4.2"
+  }
 }
