@@ -13,7 +13,7 @@
     <ProjectGuid>4abf60c8-df8a-468e-98c6-916930933538</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>lyn\lyn-timeSr.js</StartupFile>
+    <StartupFile>lyn\lyn-httpJsonAPI.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Gruntfile.js" />
+    <Compile Include="lyn\JsonTest.js" />
+    <Compile Include="lyn\JsonTest1.js" />
+    <Compile Include="lyn\lyn-httpJsonAPI.js" />
     <Compile Include="lyn\lyn-httpUp.js" />
     <Compile Include="lyn\lyn-timeFlSr.js" />
     <Compile Include="lyn\lyn0.js" />
