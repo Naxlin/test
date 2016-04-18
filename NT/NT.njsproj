@@ -31,6 +31,8 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FJS\HelloWorld.js" />
+    <Compile Include="FJS\HigherOrderFunctions.js" />
     <Compile Include="Gruntfile.js" />
     <Compile Include="lyn\JsonTest.js" />
     <Compile Include="lyn\JsonTest1.js" />
@@ -62,6 +64,7 @@
     <Folder Include="lyn\" />
     <Folder Include="dist\" />
     <Folder Include="build\" />
+    <Folder Include="FJS\" />
     <Folder Include="src\" />
     <Folder Include="Scope-Chains-Closures\" />
     <Folder Include="src\css\" />
