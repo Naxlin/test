@@ -1,5 +1,4 @@
 ﻿module.exports = function getShortMessages(messages) {
-    //console.log(messages);
     return shortMessages = messages.filter(function (mes) {
         return mes.message.length < 50;
     }).map(function (mes) {
