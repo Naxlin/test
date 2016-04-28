@@ -13,7 +13,7 @@
     <ProjectGuid>4abf60c8-df8a-468e-98c6-916930933538</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>lyn\lyn-httpJsonAPI.js</StartupFile>
+    <StartupFile>FJS\B-Reduce.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="FJS\B-EverySome.js" />
+    <Compile Include="FJS\B-Reduce.js" />
     <Compile Include="FJS\BasicFilter.js" />
     <Compile Include="FJS\BasicMap.js" />
     <Compile Include="FJS\HelloWorld.js" />
