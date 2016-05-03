@@ -32,6 +32,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="FJS\B-EverySome.js" />
+    <Compile Include="FJS\B-Recursion.js" />
     <Compile Include="FJS\B-Reduce.js" />
     <Compile Include="FJS\BasicFilter.js" />
     <Compile Include="FJS\BasicMap.js" />
