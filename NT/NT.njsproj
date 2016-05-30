@@ -31,6 +31,7 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="FJS\B-Call.js" />
     <Compile Include="FJS\B-EverySome.js" />
     <Compile Include="FJS\B-Recursion.js" />
     <Compile Include="FJS\B-Reduce.js" />
@@ -38,6 +39,7 @@
     <Compile Include="FJS\BasicMap.js" />
     <Compile Include="FJS\HelloWorld.js" />
     <Compile Include="FJS\HigherOrderFunctions.js" />
+    <Compile Include="FJS\PartialAppNoBind.js" />
     <Compile Include="Gruntfile.js" />
     <Compile Include="lyn\JsonTest.js" />
     <Compile Include="lyn\JsonTest1.js" />
