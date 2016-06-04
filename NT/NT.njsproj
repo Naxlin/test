@@ -39,6 +39,7 @@
     <Compile Include="FJS\BasicMap.js" />
     <Compile Include="FJS\HelloWorld.js" />
     <Compile Include="FJS\HigherOrderFunctions.js" />
+    <Compile Include="FJS\ImplimentReducedMap.js" />
     <Compile Include="FJS\PartialAppBind.js" />
     <Compile Include="FJS\PartialAppNoBind.js" />
     <Compile Include="Gruntfile.js" />
