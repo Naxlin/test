@@ -13,7 +13,7 @@
     <ProjectGuid>4abf60c8-df8a-468e-98c6-916930933538</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>FJS\B-Reduce.js</StartupFile>
+    <StartupFile>FJS\ImplimentReducedMap.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
