@@ -17,6 +17,7 @@
     "jshint-stylish": "2.1.0"
   },
   "dependencies": {
-    "learnyounode": "^3.5.3"
+    "learnyounode": "^3.5.3",
+    "planetproto": "^0.7.0"
   }
 }

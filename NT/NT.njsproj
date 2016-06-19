@@ -13,7 +13,7 @@
     <ProjectGuid>4abf60c8-df8a-468e-98c6-916930933538</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>FJS\ImplimentReducedMap.js</StartupFile>
+    <StartupFile>Planet\100.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,6 +37,7 @@
     <Compile Include="FJS\B-Reduce.js" />
     <Compile Include="FJS\BasicFilter.js" />
     <Compile Include="FJS\BasicMap.js" />
+    <Compile Include="FJS\FnSpy.js" />
     <Compile Include="FJS\HelloWorld.js" />
     <Compile Include="FJS\HigherOrderFunctions.js" />
     <Compile Include="FJS\ImplimentReducedMap.js" />
@@ -54,6 +55,16 @@
     <Compile Include="lyn\lyn-httpCl.js" />
     <Compile Include="lyn\lyn-httpCo.js" />
     <Compile Include="ParseDISM.js" />
+    <Compile Include="Planet\010.js" />
+    <Compile Include="Planet\020.js" />
+    <Compile Include="Planet\030.js" />
+    <Compile Include="Planet\040.js" />
+    <Compile Include="Planet\050.js" />
+    <Compile Include="Planet\060.js" />
+    <Compile Include="Planet\070.js" />
+    <Compile Include="Planet\080.js" />
+    <Compile Include="Planet\090.js" />
+    <Compile Include="Planet\100.js" />
     <Compile Include="Scope-Chains-Closures\JavaScript.js" />
     <Compile Include="lyn\lyn5-main.js" />
     <Compile Include="lyn\lyn4.js" />
@@ -75,6 +86,7 @@
     <Folder Include="dist\" />
     <Folder Include="build\" />
     <Folder Include="FJS\" />
+    <Folder Include="Planet\" />
     <Folder Include="src\" />
     <Folder Include="Scope-Chains-Closures\" />
     <Folder Include="src\css\" />
