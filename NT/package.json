@@ -18,6 +18,8 @@
   },
   "dependencies": {
     "learnyounode": "^3.5.3",
-    "planetproto": "^0.7.0"
+    "planetproto": "^0.7.0",
+    "tape": "^4.6.0",
+    "test-anything": "^1.1.5"
   }
 }

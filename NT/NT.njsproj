@@ -74,6 +74,11 @@
     <Compile Include="lyn\lyn5-mod.js" />
     <Compile Include="server.js" />
     <Compile Include="src\js\magic.js" />
+    <Compile Include="TestAny\CallMe.js" />
+    <Compile Include="TestAny\LogItOut.js" />
+    <Compile Include="TestAny\metatest.js" />
+    <Compile Include="TestAny\TapeIt.js" />
+    <Compile Include="TestAny\TellMe.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
     <Content Include="src\css\style.css" />
@@ -86,6 +91,7 @@
     <Folder Include="dist\" />
     <Folder Include="build\" />
     <Folder Include="FJS\" />
+    <Folder Include="TestAny\" />
     <Folder Include="Planet\" />
     <Folder Include="src\" />
     <Folder Include="Scope-Chains-Closures\" />
