@@ -75,6 +75,7 @@
     <Compile Include="server.js" />
     <Compile Include="src\js\magic.js" />
     <Compile Include="TestAny\CallMe.js" />
+    <Compile Include="TestAny\ErrIsHuman.js" />
     <Compile Include="TestAny\LogItOut.js" />
     <Compile Include="TestAny\metatest.js" />
     <Compile Include="TestAny\TapeIt.js" />
