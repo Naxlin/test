@@ -92,6 +92,7 @@
     <Folder Include="dist\" />
     <Folder Include="build\" />
     <Folder Include="FJS\" />
+    <Folder Include="LYM\" />
     <Folder Include="TestAny\" />
     <Folder Include="Planet\" />
     <Folder Include="src\" />

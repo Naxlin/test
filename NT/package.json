@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "learnyounode": "^3.5.3",
+    "mongodb": "^2.1.18",
     "planetproto": "^0.7.0",
     "tape": "^4.6.0",
     "test-anything": "^1.1.5"
